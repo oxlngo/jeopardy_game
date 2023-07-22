@@ -1,0 +1,187 @@
+table, th, td {
+  border:1px solid black;
+  width: 1200px;
+  height: 90px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+  color: rgb(247, 241, 241);
+  font-size: 40pt;
+  
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px; 
+    color:rgb(238, 50, 213);
+
+}
+ 
+a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+a:visited{
+  color: paleturquoise;
+}
+
+a:link {
+  color: yellow;
+  text-decoration: none;
+}
+
+
+
+body {
+  background: url("jeopardyBackground.jpg");
+ 
+}
+.submittion{
+  border-radius: 5px;
+  background-color: #1939ec;
+
+}
+.Answers{
+  padding-left: 35%;
+
+}
+.AnswerSize{
+  font-size: large;
+}
+.submittionButton{
+  width: 100%;
+  background-color: #ff7300;
+  color: white;
+  padding: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.submittionButton:hover{
+  color: red;
+}
+.button {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  display: inline;
+  
+}
+
+.button:hover{
+  color: red;
+}
+
+
+
+p{
+  text-align: center;
+  color: rgb(224, 181, 181);
+  font-family: 'Comic Sans MS' ;
+  font-size: 3em;
+  
+
+}
+
+#d1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color:rgb(14, 238, 238);
+  position: relative;
+  width:400px;
+  height:300px;
+  left:200px;
+  right: 100px;
+  
+}
+
+.list {
+  display: block;
+  font-family: monospace;
+  margin: 1em 0px;
+  text-align: left;
+}
+
+h3{
+  
+  color:#e7e9f3;
+  font-size: 1em;
+  text-align: left;
+ 
+}
+
+ h2{
+   color:#f1f1f1;
+   font-size: 1.3em;
+   text-align: left;
+ }
+
+
+.jeo{
+  font-family: 'Lucida Grande';
+  font-weight: 700;
+  font-size: 10em;
+  text-align: center;
+  font-stretch: condensed;
+  text-shadow: rgb(248, 248, 248) 0.5em 0.5em 0.5em;
+  color: rgb(241, 173, 25);
+  font-style: oblique 20deg;
+}
+
+
+input[type="radio"] {
+  appearance: none;
+  background-color: rgb(219, 51, 51);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 0.9em;
+  height: 0.9em;
+  border: 0.15em solid white;
+  border-radius: 40%;
+  transform: translateY(-0.075em);
+  
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 40%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"]:focus {
+  outline: max(2px, 0.15em) solid yellow;
+  outline-offset: max(2px, 0.15em);
+}
+
+
+
+.link{
+
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline;
+  
+
+}
+
+.link:hover{
+  color: red;
+}
